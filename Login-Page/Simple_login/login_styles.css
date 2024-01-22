@@ -1,0 +1,58 @@
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+width:300px;
+background-color: #fff;
+padding: 20px;
+margin: 150px 300px 50px 0px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.welcome-back {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.designed-by{
+    margin-bottom: 20px;
+}
+
+.form{
+margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size:16px
+}
+
+.login-button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.create-account {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.forget-password {
+    font-size: 14px;
+}
+.forget-password a {
+    color: #4CAF50;
+    text-decoration: none;
+}
